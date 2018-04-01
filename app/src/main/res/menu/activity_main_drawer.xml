@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+
+        <!--<item-->
+            <!--android:id="@+id/nav_estivo"-->
+            <!--android:icon="@drawable/ic_filter_list_black_24dp"-->
+            <!--android:title="Estivo" />-->
+        <item
+            android:id="@+id/nav_estivo"
+            android:title=""
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            app:actionLayout="@layout/switch_estivo"
+            />
+        <item
+            android:id="@+id/nav_invernale"
+            android:title=""
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            app:actionLayout="@layout/switch_invernale"
+            />
+        <!--<item-->
+            <!--android:id="@+id/nav_invernale"-->
+            <!--android:icon="@drawable/ic_filter_list_black_24dp"-->
+            <!--android:title="Invernale" />-->
+       <!-- <item
+            android:id="@+id/nav_calze"
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            android:title="Calze" />-->
+
+        <item
+            android:id="@+id/nav_calze"
+            android:title=""
+            android:icon="@drawable/ic_filter_list_black_24dp"
+            app:actionLayout="@layout/switch_calze"
+            />
+    </group>
+
+    <item android:title="Strumenti">
+        <menu>
+            <item
+                android:id="@+id/Import_db"
+                android:icon="@drawable/ic_cloud_download_black_24dp"
+                android:title="Importa Dati" />
+            <item
+                android:id="@+id/Export_db"
+                android:icon="@drawable/ic_cloud_upload_black_24dp"
+                android:title="Esporta Dati + Share" />
+          <!--  <item
+                android:id="@+id/import_sd"
+                android:icon="@drawable/ic_sd_card_black_24dp"
+                android:title="Importa da SD" />-->
+           <!-- <item
+                android:id="@+id/send_to"
+                android:icon="@drawable/ic_sd_card_black_24dp"
+                android:title="Invia a" />-->
+        </menu>
+    </item>
+
+
+</menu>

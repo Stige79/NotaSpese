@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nota Spesa</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_label">Ricerca</string>
+    <string name="search_hint">cerca</string>
+    <string name="action_settings">Settings</string>
+    <string name="elimina">Elimina</string>
+    <string name="cancel">Annulla</string>
+    <string name="search_result">risultati</string>
+
+</resources>
